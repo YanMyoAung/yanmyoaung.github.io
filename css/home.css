@@ -265,3 +265,32 @@
 .blogimg{
     width: 100%;
 }
+.dateblog{
+    margin : 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.blogtitle{
+    color : #3C4858;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 1.55em;
+    margin: 20px;
+    margin-top: 0px;
+}
+.blogtext{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans";
+    margin : 20px;
+    color : #999999;
+    padding-bottom: 20px;
+}
+.readmore{
+    color : #3f51b5;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
