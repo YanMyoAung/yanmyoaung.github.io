@@ -1,5 +1,7 @@
 
-
+ jQuery(window).load(function(){
+  jQuery(".hameid-loader-overlay").show(0).delay(5000).hide(0);
+});
  $(document).on('ready', function() {
  
       $(".regular").slick({

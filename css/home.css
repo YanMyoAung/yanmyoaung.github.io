@@ -1,3 +1,13 @@
+/* preload */
+.hameid-loader-overlay {
+    width: 100%;
+    height: 100%;
+    background: url('../images/preload.gif') center no-repeat #FFF;
+    z-index: 99999;
+    position: fixed;
+    opacity: 1;
+}
+
 /* nav & logo */
 .logo_img{
     height: 50px;
@@ -43,6 +53,7 @@
     margin-top : 40px;
     margin-bottom: 40px;
     float: right;
+    margin-right: 40px;
 }
 .title{
     font-family: 'Roboto', sans-serif;
@@ -294,3 +305,103 @@
     font-family: "Open Sans";
     font-size: 14px;
 }
+
+#copyright{
+    clear: both;
+    display: block;
+    color: #757575;
+    background-color: #eaeaea;
+}
+#copyright p {
+    text-align: center;
+    padding: 52px 0px 40px 0px;
+    font-size: 16px;
+    color: #767676;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom : 0px !important;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* addressbox */
+
+.addbox{
+   background-image: url('../images/addressimg.jpg');
+
+   padding : 10px;
+}
+
+.contactus{
+    color : #43403c;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.contacttitle{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contacttxt{
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: #767676;
+    font-size: 16px;
+    word-wrap: break-word;
+    line-height: 1.6;
+}
+.addmargin{
+    
+    margin : 40px 140px 40px 140px;
+}
+
+.followicon{
+    line-height: 1;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 2px 3px 0px;
+    padding : 12px 15px;
+    text-align: center;
+    min-width: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.facebook{
+    background-color: #4161a2;
+}
+.twitter{
+    background-color: #09aeec;
+    padding : 12px 14px !important;
+}
+.googleplus{
+    background-color: #d1432f;
+    padding : 12px 12px !important;
+}
+.linkedin{
+    background-color: #517EA5;
+}
+.youtube{
+    background-color: #B70F1E;
+}
+.instagram{
+    background-color: #0CA8E5;
+    padding : 12px 13px !important;
+}
+.contactusheader{
+    margin : 30px;
+    margin-left: 150px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
