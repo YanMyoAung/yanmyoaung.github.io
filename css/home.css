@@ -10,12 +10,12 @@
 
 /* nav & logo */
 .logo_img{
-    height: 50px;
-    margin-left: 46px;
+    height: 40px;
+    margin-left: 60px;
     margin-top: 20px;
 }
 .navhome{
-    margin-right: 65px;
+    margin-right: 70px;
     margin-top: 18px;
 }
 .navbar{
@@ -53,12 +53,13 @@
     margin-top : 40px;
     margin-bottom: 40px;
     float: right;
-    margin-right: 40px;
+    margin-right: 100px;
 }
 .title{
     font-family: 'Roboto', sans-serif;
     margin: 50px;
     margin-bottom: 0px;
+    margin-left: 50px;
     font-size: 35px;
 }
 .title1{
@@ -66,10 +67,11 @@
     margin: 45px;
     margin-bottom: 20px;
     margin-top: 0px;
+    margin-left: 50px;
     font-size: 35px;
 }
 .sub-title{
-    margin-left: 48px;
+    margin-left: 50px;
     color : #777;
 }
 
@@ -77,7 +79,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     display: inline-block;
-    margin-left: 45px;
+    margin-left: 50px;
     margin-top: 10px;
     box-sizing: border-box;
     color : white;
@@ -326,8 +328,7 @@
 /* addressbox */
 
 .addbox{
-   background-image: url('../images/addressimg.jpg');
-
+   background-image: url('../images/footer_bg.png');
    padding : 10px;
 }
 
