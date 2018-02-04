@@ -1,10 +1,10 @@
 
- jQuery(window).load(function(){
-  jQuery(".hameid-loader-overlay").show(0).delay(1000).hide(0);
-});
+ $(window).ready(function(){
+  $(".hameid-loader-overlay").show(0).delay(4000).hide(0);
+}); 
 
  $(document).on('ready', function() {
- 
+  
       $(".regular").slick({
         dots: true,
         infinite: true,
@@ -26,8 +26,8 @@
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     },
     {
