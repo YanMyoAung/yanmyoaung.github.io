@@ -44,8 +44,9 @@
 
 /* first container */
 .firstbox{
-   background-image: url('../images/team1.jpg');
+   background-image: url('../images/team.jpg');
    background-repeat: no-repeat;
+ background-position: center center;
    background-size: cover;
    height: 100%;
 }
@@ -471,7 +472,9 @@
         display: block;
         
     }
-    
+    .firstbox{
+ background-position: center center;
+}
     .title-button{
         text-align: left;
         font-size: 15px;
