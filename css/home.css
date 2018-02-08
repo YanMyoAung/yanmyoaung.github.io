@@ -44,7 +44,7 @@
 
 /* first container */
 .firstbox{
-   background-image: url('../images/team2.jpg');
+   background-image: url('../images/team1.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 100%;
@@ -79,9 +79,9 @@
 
 .title{
     font-family: 'Roboto', sans-serif;
-   padding :  20px;
+   padding :  20px 50px;
    background-color : rgba(0,0,0,0.6);
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     color : white;
     margin: 0 auto;
@@ -89,10 +89,11 @@
     overflow: hidden;
 }
 .title1{
+   
     font-family: 'Roboto', sans-serif;
     padding :  10px;
     background-color : rgba(0,0,0,0.6);
-     font-size: 20px;
+     font-size: 24px;
      color : #dcdada;
      margin: 0 auto;
      display: inline-block;
@@ -457,7 +458,7 @@
     .title{
         margin-bottom : 10px;
       display :block;
-        font-size: 60px;
+        font-size: 40px;
     }
     .title1_marginbox{
         text-align: center;
