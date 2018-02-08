@@ -81,7 +81,8 @@
     font-family: 'Roboto', sans-serif;
    padding :  20px;
    background-color : rgba(0,0,0,0.6);
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: 700;
     color : white;
     margin: 0 auto;
     display: inline-block;
@@ -96,6 +97,7 @@
      margin: 0 auto;
      display: inline-block;
      overflow: hidden;
+
 }
 .sub-title{
     margin-left: 50px;
@@ -455,7 +457,7 @@
     .title{
         margin-bottom : 10px;
       display :block;
-        font-size: 38px;
+        font-size: 60px;
     }
     .title1_marginbox{
         text-align: center;
@@ -463,14 +465,14 @@
     }
     .title1{
         
-       
+        
         font-size: 18px;
         display: block;
       
     }
     
     .title-button{
-      
+        text-align: left;
         font-size: 15px;
       
     }
