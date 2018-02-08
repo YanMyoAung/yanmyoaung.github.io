@@ -453,18 +453,26 @@
        padding: 30px;
     }
     .title{
-        
+        margin-bottom : 10px;
       display :block;
         font-size: 38px;
     }
+    .title1_marginbox{
+        text-align: center;
+        margin-bottom: 20px;
+    }
     .title1{
-       display : block; 
+        
+       
         font-size: 20px;
+        display: block;
+      
     }
     
     .title-button{
+      
         font-size: 15px;
-
+      
     }
 
     .secondbox{
