@@ -44,7 +44,8 @@
 
 /* first container */
 .firstbox{
-   background-image: url('../images/team.jpg');
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3),
+   rgba(0, 0, 0, 0.3) ),url('../images/team.jpg');
    background-repeat: no-repeat;
  background-position: center center;
    background-size: cover;
@@ -53,7 +54,6 @@
 .title_marginbox{
 
     text-align: center;
-   
     margin-bottom: 0;
     margin-top: 150px;
 }

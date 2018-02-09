@@ -1,0 +1,167 @@
+/* nav & logo */
+.logo_img{
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.navhome{
+    margin-right: 70px;
+    margin-top: 18px;
+}
+.navbar{
+      margin-bottom: 15px !important; 
+}
+.navbar-toggle {
+    margin-top: 25px;
+    margin-right: 30px;
+    color : #3f4245;
+    border: 2px  solid #3f4245 !important;
+    background-image: none !important;
+}
+.icon-bar{
+    background-color : #3f4245 !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.navitems{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color :  #3f4245;
+}
+/* nav & logo */
+
+/* about us */
+
+.aboutus{
+    
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4),
+     rgba(0, 0, 0, 0.8) ),
+      url("../images/8.jpg");
+    
+     background-position:center center;
+    
+    
+}
+
+.abouttext{
+    font-size: 45px;
+    color: #fff;
+    padding-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+.abouttext1{
+    font-size: 17px;
+    color: #fff;
+    padding-bottom: 150px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    font-weight: 300;
+}
+
+
+/* addressbox */
+
+.addbox{
+    background-image: url('../images/footer_bg.png');
+    padding : 10px;
+ }
+ 
+ .contactus{
+     color : #43403c;
+     text-align: center;
+     display: block;
+     margin-bottom: 30px;
+ }
+ 
+ .contacttitle{
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 15px;
+   letter-spacing: 1px;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+ }
+ 
+ .contacttxt{
+     margin-top: 20px;
+     font-family: 'Fira Sans', sans-serif;
+     font-weight: 300;
+     color: #767676;
+     font-size: 16px;
+     word-wrap: break-word;
+     line-height: 1.6;
+ }
+ .addmargin{
+     
+     margin : 40px 140px 40px 140px;
+ }
+ 
+ .followicon{
+     line-height: 1;
+     display: inline-block;
+     vertical-align: top;
+     margin: 0px 2px 3px 0px;
+     padding : 12px 15px;
+     text-align: center;
+     min-width: 16px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     color: #ffffff;
+     cursor: pointer;
+ }
+ .facebook{
+     background-color: #4161a2;
+ }
+ .twitter{
+     background-color: #09aeec;
+     padding : 12px 14px !important;
+ }
+ .googleplus{
+     background-color: #d1432f;
+     padding : 12px 12px !important;
+ }
+ .linkedin{
+     background-color: #517EA5;
+ }
+ .youtube{
+     background-color: #B70F1E;
+ }
+ .instagram{
+     background-color: #0CA8E5;
+     padding : 12px 13px !important;
+ }
+ .contactusheader{
+     margin : 30px;
+     margin-left: 150px;
+     font-family: "Open Sans", sans-serif;
+     font-size: 35px;
+     margin-bottom: 0px;
+     margin-top: 50px;
+ }
+
+ .whole_2{
+	background-color: #eaeaea;
+	height: 100px;
+	clear: both;
+	color: #757575;
+}
+#copyright{
+	color: #757575;;
+	 display: block;
+    padding-top: 45px;
+	text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+}
+
+ 
+ /* for  */
+ /*  for tablets   */ 
