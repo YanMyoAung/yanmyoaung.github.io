@@ -9,7 +9,7 @@
     margin-top: 18px;
 }
 .navbar{
-      margin-bottom: 15px !important; 
+      margin: 0px 80px 15px 100px !important; 
 }
 .navbar-toggle {
     margin-top: 25px;
@@ -40,7 +40,7 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4),
      rgba(0, 0, 0, 0.8) ),
       url("../images/8.jpg");
-    
+   
      background-position:center center;
     
     
@@ -54,6 +54,7 @@
     text-align: center;
     display: block;
     font-weight: 700;
+    
 }
 .abouttext1{
     font-size: 17px;
@@ -142,11 +143,91 @@
      margin : 30px;
      margin-left: 150px;
      font-family: "Open Sans", sans-serif;
-     font-size: 35px;
+    
      margin-bottom: 0px;
      margin-top: 50px;
  }
+ * addressbox */
 
+ .addbox{
+    background-image: url('../images/footer_bg.png');
+    padding : 10px;
+ }
+ 
+ .contactus{
+     color : #43403c;
+     text-align: center;
+     display: block;
+     margin-bottom: 30px;
+ }
+ 
+ .contacttitle{
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 15px;
+   letter-spacing: 1px;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+ }
+ 
+ .contacttxt{
+     margin-top: 20px;
+     font-family: 'Fira Sans', sans-serif;
+     font-weight: 300;
+     color: #767676;
+     font-size: 16px;
+     word-wrap: break-word;
+     line-height: 1.6;
+ }
+ .addmargin{
+     
+     margin : 40px 100px 40px 140px;
+ }
+ 
+ .followicon{
+     line-height: 1;
+     display: inline-block;
+     vertical-align: top;
+     margin: 0px 2px 3px 0px;
+     padding : 12px 15px;
+     text-align: center;
+     min-width: 16px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     color: #ffffff;
+     cursor: pointer;
+ }
+ .facebook{
+     background-color: #4161a2;
+ }
+ .twitter{
+     background-color: #09aeec;
+     padding : 12px 14px !important;
+ }
+ .googleplus{
+     background-color: #d1432f;
+     padding : 12px 12px !important;
+ }
+ .linkedin{
+     background-color: #517EA5;
+ }
+ .youtube{
+     background-color: #B70F1E;
+ }
+ .instagram{
+     background-color: #0CA8E5;
+     padding : 12px 13px !important;
+ }
+ .contactusheader{
+     margin : 30px;
+     margin-left: 150px;
+     font-family: "Open Sans", sans-serif;
+    
+     margin-bottom: 0px;
+     margin-top: 50px;
+ }
+ 
  .whole_2{
 	background-color: #eaeaea;
 	height: 100px;
@@ -162,6 +243,111 @@
     font-size: 15px;
 }
 
- 
+ .abouthead{
+    font-family: "Open Sans", sans-serif;
+     margin-top: 100px;
+     margin-left: 150px;
+ }
+
+ .aboutusHeading{
+    color: #6d7485;
+    font-size: 1.995rem;
+    font-weight: 400;
+    margin: 90px;
+    margin-bottom: 50px;
+    text-align: justify;    
+}
+.subaboutus{
+    font-family: 'Roboto', sans-serif;
+    margin : 0px 20px 0px 90px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.subtxtaboutus{
+    color: #6d7485;
+    font-size: 1.5rem;
+    margin : 30px 0px 50px 90px;
+    text-align: justify;
+}
+.subaboutus1{
+    font-family: 'Roboto', sans-serif;
+    margin : 0px 90px 0px 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.subtxtaboutus1{
+    color: #6d7485;
+    font-size: 1.5rem;
+    margin : 30px 90px 50px 0px;
+    text-align: justify;
+}
  /* for  */
  /*  for tablets   */ 
+
+ @media only screen and (max-width: 500px){
+    .logo_img{
+        margin-left: 40px;
+    }
+    .subaboutus{
+       margin : 20px;
+    }
+    .subtxtaboutus{
+        margin : 20px;
+    }
+    .subaboutus1{
+        margin : 20px;
+    }
+    .subtxtaboutus1{
+        margin : 20px;
+    }
+    .aboutusHeading{
+        color: #6d7485;
+        font-size: 1.7rem;
+        font-weight: 400;
+        margin: 50px 20px 20px 20px;
+        
+        text-align: justify;    
+    }
+    .abouthead{
+        margin-top: 80px;
+        margin-left: 21px;
+    }
+    .contacttitle{
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+
+    
+      
+      .contacttxt{
+          margin-top: 20px;
+          font-family: 'Fira Sans', sans-serif;
+          font-weight: 300;
+          color: #767676;
+          font-size: 16px;
+          word-wrap: break-word;
+          line-height: 1.6;
+      }
+      .addmargin{
+        margin : 10px;
+    }
+    .contactusheader{
+        margin-left: 20px;
+        
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .navbar{
+        margin: 0px 0px 15px 0px !important; 
+   }
+    .navhome{
+        margin-left: 10px;
+    }
+}

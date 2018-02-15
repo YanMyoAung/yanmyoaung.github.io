@@ -354,8 +354,11 @@
     font-size: 15px;
 }
 
-
-
+.aboutusHeading{
+    color: #6d7485;
+    font-size: 1.995rem;
+    font-weight: 400;
+}
 /* addressbox */
 
 .addbox{
@@ -390,9 +393,11 @@
 }
 .addmargin{
     
-    margin : 40px 140px 40px 140px;
+    margin : 40px 100px 40px 140px;
 }
-
+.contmargin{
+    margin:  0px 100px 0px 100px;
+}
 .followicon{
     line-height: 1;
     display: inline-block;
@@ -445,6 +450,10 @@
 
 /*  Media Query for phones */
 @media only screen and (max-width: 500px){
+    
+.blogmargin{
+    margin:  0px ;
+}
     .logo_img{
         margin-left: 40px;
     }
@@ -548,13 +557,7 @@
         margin-top: 30px;
       }
 
-      .contactusheader:after{
-            display: block;
-            content: " ---------";
-            font-size: 30px;
-            border-radius: 50px;
-            color: #4155c6;
-      }
+    
       
       .contacttxt{
           margin-top: 20px;
