@@ -354,11 +354,7 @@
     font-size: 15px;
 }
 
-.aboutusHeading{
-    color: #6d7485;
-    font-size: 1.995rem;
-    font-weight: 400;
-}
+
 /* addressbox */
 
 .addbox{
@@ -454,6 +450,9 @@
 .blogmargin{
     margin:  0px ;
 }
+.contmargin{
+    margin:  0px ;
+}
     .logo_img{
         margin-left: 40px;
     }
@@ -529,13 +528,7 @@
     .cardeff:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
-    #ourservices:after{
-        display: block;
-        content: " ---------";
-        font-size: 30px;
-        border-radius: 50px;
-        color: #4155c6;
-    }
+  
     .ourservice{
         margin-left: 10px;
     }
