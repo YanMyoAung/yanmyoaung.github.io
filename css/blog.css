@@ -316,6 +316,9 @@
     color :     #4155C6;
 }
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
 @media only screen and (max-width: 500px){
 
 #blog_section{
@@ -442,4 +445,38 @@
         margin-left: 10px;
     }
     
+}
+
+/*  for tablets   */ 
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .secondbox{
+        margin: 20px 20px 40px 20px;
+      }
+
+      .quotebox{
+        margin : 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .quote{
+        margin : 0px;
+    }
+    .cardmargin{
+        margin: 30px !important;
+        margin-left: 40px;
+    }
+    .addmargin{
+      
+        
+        margin : 20px ;
+    }
+    .contactusheader{
+        margin : 30px;
+        margin-left: 35px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+  
 }

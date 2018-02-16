@@ -352,3 +352,55 @@
         margin-left: 10px;
     }
 }
+
+/*  for tablets   */ 
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+   
+    
+    .addmargin{
+     
+        margin : 20px ;
+    }
+    .contactusheader{
+        margin : 30px;
+        margin-left: 35px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
+    .abouthead{
+        font-family: "Open Sans", sans-serif;
+         margin-top: 70px;
+         margin-left: 40px;
+         text-align: left;
+     }
+     .subaboutus{
+      
+        margin : 20px 40px 20px 40px;
+     
+    }
+
+    .aboutusHeading{
+      
+        margin: 70px 40px 40px 40px;
+       
+      
+    }
+    .subtxtaboutus{
+     
+        margin : 0px 40px 40px 40px;
+       
+        
+    }
+    .subaboutus1{
+        margin : 20px 40px 20px 40px;
+     
+    }
+    .subtxtaboutus1{
+      
+        margin : 0px 40px 40px 40px;
+       
+    }
+}

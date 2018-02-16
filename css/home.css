@@ -437,11 +437,43 @@
     margin-bottom: 0px;
     margin-top: 50px;
 }
+.cardmargin{
+    margin-top: 30px !important;
+ 
+}
 
 /* for  */
 /*  for tablets   */ 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
+    .secondbox{
+        margin: 20px 20px 40px 20px;
+      }
 
+      .quotebox{
+        margin : 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .quote{
+        margin : 0px;
+    }
+    .cardmargin{
+        margin: 30px !important;
+        margin-left: 40px;
+    }
+    .addmargin{
+      
+        margin : 20px ;
+    }
+    .contactusheader{
+        margin : 30px;
+        margin-left: 35px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+  
 }
 
 /*  Media Query for phones */
@@ -522,9 +554,10 @@
     .cardeff {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
-        margin-bottom: 30px;
+       
     }
     
+   
     .cardeff:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
