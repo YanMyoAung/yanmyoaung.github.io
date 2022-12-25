@@ -710,9 +710,16 @@
         text-align: center;
         display: block;
         margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         padding : 10px;
     }
   
+    .ourservice,.ourservice1{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #999999;
+    }
 
     .ourserviceimg{
         float: none;
