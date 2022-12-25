@@ -740,6 +740,10 @@
         line-height: 1.6;
     }
 
+    .cardmargin::before{
+        width: 50%;
+    }
+
     .addmargin {
         margin: 10px;
     }
