@@ -49,6 +49,12 @@
     color: #3f4245;
 }
 
+.navitems:hover{
+    color : white !important;
+    background-color: #5164d4  !important;
+    border-radius: 15px 0px 15px 0px;
+}
+
 /* nav & logo */
 
 /* first container */
