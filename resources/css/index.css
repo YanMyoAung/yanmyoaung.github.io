@@ -280,11 +280,12 @@ html,body{
 
     #quote {
         margin: 50px 0px 0px;
+        font-size: 1.1em;
     }
 
     #logo {
         margin: 20px 30px;
-
+        width: 60px;
     }
 
     .home-content {
@@ -301,6 +302,7 @@ html,body{
     #quote_author {
         margin: 10px 20px;
         text-align: right;
+        font-size: 1em;
     }
 
     .change-bg {
@@ -318,6 +320,20 @@ html,body{
     }
 
     .menu-bar-margin{
-        margin : 50px 30px !important;
+        margin : 50px 50px 20px 0px !important;
+       
+    }
+
+    .nav li a {
+        font-size: 1.2em;
+    }
+
+    .nav-margin{
+        margin: 0px 30px 0px 0px;
+    }
+
+
+    #menu-bar {
+        width: 40px;
     }
 }
