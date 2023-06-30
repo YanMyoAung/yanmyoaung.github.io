@@ -316,7 +316,8 @@ html,body{
     }
 
     #menu-bar{
-        margin : 50px 30px;
+        margin : 45px 30px 50px 30px;
+        
     }
 
     .menu-bar-margin{
