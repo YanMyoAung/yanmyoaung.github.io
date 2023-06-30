@@ -293,7 +293,7 @@ html,body{
     }
 
     #quote_wrapper {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.6);
         padding: 30px;
         margin: 20px;
         box-sizing: border-box;
@@ -312,7 +312,7 @@ html,body{
     }
 
     .menu-bg {
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 1);
     }
 
     #menu-bar{
