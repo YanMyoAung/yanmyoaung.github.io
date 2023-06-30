@@ -312,7 +312,7 @@ html,body{
     }
 
     .menu-bg {
-        background-color: rgba(0, 0, 0, 1);
+        background-color: rgba(0, 0, 0, 0.9);
     }
 
     #menu-bar{
