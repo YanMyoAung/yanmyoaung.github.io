@@ -409,7 +409,10 @@ span.circle_text {
         margin: 0px 30px 0px 0px;
     }
 
-
+    #journey_box{
+        right : 30px;
+    }
+    
     #menu-bar {
         width: 40px;
     }
